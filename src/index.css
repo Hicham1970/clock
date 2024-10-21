@@ -13,7 +13,7 @@ body {
 }
 
 .clock-container {
-  backdrop-filter: blur(5px);
+  /*backdrop-filter: blur(5px);*/
   width: 100vw;
   padding: 10px 0;
 }
@@ -32,19 +32,70 @@ body {
   padding: 25px;
 }
 
-.btn{
-  color:red;
-  font-size:2em; 
-  font-weight:bold;  
-  padding:10px;
-  background:"green"; 
-  border-radius:25px; 
-
+.btn {
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px;
+  background: "green";
+  border-radius: 25px;
 }
 
-.input{
-  height:50px;
-  width:220px;
-  border-radius:25px;
-  margin-left:12px  
+.input {
+  height: 50px;
+  width: 220px;
+  border-radius: 25px;
+  margin-left: 12px;
+}
+
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid orange;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+}
+.display {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+  font-family: monospace;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 3px 3px 5px hsl(0, 0%, 0%, 0.75);
+}
+.controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.start-button {
+  background-color: hsl(115 100% 40%);
+}
+.start-button:hover {
+  background-color: hsl(115 100% 35%);
+}
+
+.stop-button {
+  background-color: hsl(10, 90%, 50%);
+}
+.stop-button:hover {
+  background-color: hsl(10, 90%, 45%);
+}
+
+.reset-button {
+  background-color: hsl(205, 90%, 60%);
+}
+.reset-button:hover {
+  background-color: hsl(205, 90%, 55%);
 }

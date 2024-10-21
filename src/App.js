@@ -1,8 +1,8 @@
-import MyComponent from "./UseRef/ClickMe.jsx";
+import StopWatch from "./StopWatch/StopWatch";
 function App() {
   return (
     <>
-      <MyComponent />
+      <StopWatch />
     </>
   );
 }
