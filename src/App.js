@@ -1,11 +1,8 @@
-import DigitalClock from "./DigitalClock/DigitalClock.jsx";
+import MyComponent from "./UseRef/ClickMe.jsx";
 function App() {
   return (
     <>
-      <DigitalClock />
-      <DigitalClock />
-      <DigitalClock />
-      <DigitalClock />
+      <MyComponent />
     </>
   );
 }

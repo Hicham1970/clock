@@ -26,3 +26,25 @@ body {
   text-shadow: 3px 3px 5px black(0, 0%, 0%, 0.75);
   text-align: center;
 }
+.box {
+  color: white;
+  border: 3px solid yellow;
+  padding: 25px;
+}
+
+.btn{
+  color:red;
+  font-size:2em; 
+  font-weight:bold;  
+  padding:10px;
+  background:"green"; 
+  border-radius:25px; 
+
+}
+
+.input{
+  height:50px;
+  width:220px;
+  border-radius:25px;
+  margin-left:12px  
+}
